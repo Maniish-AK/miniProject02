@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="url" value="https://thinking-tester-contact-list.herokuapp.com/"/>
+  <listeners>
+    <listener class-name="utils.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="EditContactTest(failed)">
+    <classes>
+      <class name="test.TC004_EditContact">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="setup"/>
+          <include name="editContactAndWitEmptyField"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.TC004_EditContact -->
+    </classes>
+  </test> <!-- EditContactTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-26T23:51:59 IST" name="Suite" finished-at="2025-02-26T23:52:08 IST" duration-ms="8568">
+    <groups>
+    </groups>
+    <test started-at="2025-02-26T23:51:59 IST" name="DeleteContactTest" finished-at="2025-02-26T23:52:08 IST" duration-ms="8568">
+      <class name="test.TC005_DeleteContact">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC005_DeleteContact@7905a0b8]" started-at="2025-02-26T23:51:59 IST" name="setup" finished-at="2025-02-26T23:51:59 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC005_DeleteContact@7905a0b8]" started-at="2025-02-26T23:51:59 IST" name="launchBrowser" finished-at="2025-02-26T23:52:03 IST" duration-ms="3465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="deleteContact()[pri:1, instance:test.TC005_DeleteContact@7905a0b8]" started-at="2025-02-26T23:52:03 IST" name="deleteContact" finished-at="2025-02-26T23:52:08 IST" duration-ms="4758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteContact -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC005_DeleteContact@7905a0b8]" started-at="2025-02-26T23:52:08 IST" name="close" finished-at="2025-02-26T23:52:08 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.TC005_DeleteContact -->
+    </test> <!-- DeleteContactTest -->
+  </suite> <!-- Suite -->
+</testng-results>
