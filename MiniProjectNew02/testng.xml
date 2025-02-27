@@ -5,8 +5,7 @@
 		<listener class-name="utils.ListenerClass"></listener>
 	</listeners>
 	<parameter name="browser" value="Chrome"></parameter>
-	<parameter name="url"
-		value="https://thinking-tester-contact-list.herokuapp.com/"></parameter>
+	<parameter name="url" value="https://thinking-tester-contact-list.herokuapp.com/"></parameter>
 	<!--<test thread-count="5" name="SignupTest">
 		<classes>
 			<class name="test.TC001_SignupTest"/>
